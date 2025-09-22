@@ -1,3 +1,51 @@
+# OSolution Task [ Category - Task ]
+
+## Setup Instructions   => From Terminal
+```bash
+composer install
+```
+```bash
+cp .env.example .env
+```
+```bash
+php artisan key:generate
+```
+```bash
+php artisan migrate --seed
+```
+```bash
+php artisan serve
+```
+
+## Endpoints
+
+### Tasks
+- `GET    /tasks` – List all tasks
+- `GET    /tasks/{id}` – Get one task
+- `POST   /tasks` – Create a new task
+- `PATCH  /tasks/{id}/toggle` – Toggle completed status
+
+### Categories
+- `GET    /categories` – List all categories
+
+
+
+## PostMan Collection
+project-root/
+│
+├── postman/
+│   └── O_Solutions_Task.postman_collection.json
+
+ [Click here to get the Postman Collection](./postman/O_Solutions_Task.postman_collection.json)
+<!-- You can find a ready-to-use Postman collection inside the [`postman/`](./postman/) folder. -->
+
+### Import to Postman
+1. Open Postman.
+2. Click **Import**.
+3. Select the file:  
+
+<hr>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

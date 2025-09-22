@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "28d4db56-1f0c-4a5f-bd51-0b37379d3118",
+		"name": "O Solutions Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31089259",
+		"_collection_link": "https://abdelrahman-klsjdafi.postman.co/workspace/Projects~9ac3a605-c218-4ae8-9f23-e395f4d4e476/collection/31089259-28d4db56-1f0c-4a5f-bd51-0b37379d3118?action=share&source=collection_link&creator=31089259"
+	},
+	"item": [
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "list all tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APP_URL}}/tasks",
+							"host": [
+								"{{APP_URL}}"
+							],
+							"path": [
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "APP_URL",
+			"value": ""
+		}
+	]
+}
